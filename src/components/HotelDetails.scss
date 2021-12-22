@@ -1,0 +1,63 @@
+span {
+  font-style: italic;
+}
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ImageWrapper {
+  position: relative;
+  p {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    background: #ffffff;
+    color: red;
+    padding: 5px;
+    font-size: 8px;
+  }
+}
+.ListWrapper {
+  height: 200px;
+}
+
+.box {
+  position: relative;
+  border-top: 1px solid #dbd0c0;
+  padding-top: 10px;
+  height: inherit;
+
+  .property {
+    h3 {
+      font-size: 24px;
+      color: #000000;
+    }
+    h4 {
+      font-size: 14px;
+      color: #3d0000;
+    }
+    p {
+      color: #950101;
+      text-decoration: underline;
+    }
+  }
+  .offer {
+    position: absolute;
+    bottom: 0;
+
+    h5 {
+      color: #1e5128;
+      font-size: 12px;
+    }
+  }
+  .price {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+
+    .amount {
+      font-size: 3rem;
+    }
+  }
+}
